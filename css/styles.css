@@ -420,6 +420,7 @@ ul {
 .benefits-list .item {
   width: 370px;
   margin: 15px;
+  border: 1px solid #eeeeee;
 }
 .benefits-list-title {
   font-style: normal;
