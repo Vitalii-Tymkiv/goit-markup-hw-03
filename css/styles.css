@@ -52,7 +52,7 @@ ul {
 .logo {
   color: var(--title-text-color);
   text-decoration: none;
-  font-family: Raleway, cursive;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -282,7 +282,6 @@ ul {
 /* Button */
 
 .button-primary {
-  padding: 6px, 22px;
   border: 1px solid transparent;
   min-width: 73px;
   padding: 6px 22px;
@@ -301,7 +300,6 @@ ul {
 }
 
 .button-secondary {
-  padding: 6px, 22px;
   border: 1px solid transparent;
   min-width: 103px;
   padding: 6px 22px;
