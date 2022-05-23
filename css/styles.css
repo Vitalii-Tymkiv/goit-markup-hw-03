@@ -41,12 +41,11 @@ ul {
 }
 
 .container {
-  margin-left: 215px;
+  margin-left: 200px;
   margin-right: auto;
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid teal;
 }
 
 /* ЛОГОТИП */
@@ -72,6 +71,7 @@ ul {
 .header {
   background-color: var(--secondary-text-color);
   margin-bottom: 0;
+  border-bottom: 1px solid #ececec;
 }
 
 /*Navigation*/
@@ -79,9 +79,6 @@ ul {
 .navigation {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ececec;
-  margin-left: 215px;
-  margin-right: 200px;
 }
 /* Site nav */
 .link {
@@ -129,6 +126,11 @@ ul {
   margin-bottom: 0px;
   margin-left: auto;
 }
+
+.auth-nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .auth-nav .item + .item {
   margin-left: 50px;
 }
@@ -165,7 +167,6 @@ ul {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  outline: 3px solid tomato;
 }
 
 /* Sections */
@@ -285,6 +286,7 @@ ul {
 /* Button */
 
 .button-primary {
+  padding: 6px, 22px;
   border: 1px solid transparent;
   min-width: 73px;
   padding: 6px 22px;
@@ -294,6 +296,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
+  text-align: center;
   align-items: center;
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
@@ -302,6 +305,7 @@ ul {
 }
 
 .button-secondary {
+  padding: 6px, 22px;
   border: 1px solid transparent;
   min-width: 103px;
   padding: 6px 22px;
@@ -313,6 +317,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
@@ -367,6 +372,8 @@ ul {
 }
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--secondary-background-color);
 }
 .address-list .item:not(:last-child) {
@@ -390,6 +397,30 @@ ul {
 }
 
 /*Портфоліо*/
+
+/*Buttons-list*/
+.buttons-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-left: 0px;
+}
+.buttons-list .item + .item {
+  margin-left: 8px;
+}
+/*benefits-list*/
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  padding-left: 0px;
+}
+
+.benefits-list .item {
+  width: 370px;
+  margin: 15px;
+}
 .benefits-list-title {
   font-style: normal;
   font-weight: 700;
